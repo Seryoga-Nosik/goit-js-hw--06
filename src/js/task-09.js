@@ -13,7 +13,6 @@ function onBtnClick() {
   const randomColor = getRandomHexColor();
   document.body.style.backgroundColor = randomColor;
   colorName.textContent = randomColor;
-  // colorName.parentNode.style.color = getRandomHexColor();
 }
 
 function getRandomHexColor() {
